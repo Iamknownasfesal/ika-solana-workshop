@@ -1,0 +1,33 @@
+{
+  "name": "ika-solana-workshop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dWallet controlled by a Solana devnet account signs Ethereum and Bitcoin transactions.",
+  "license": "BSD-3-Clause-Clear",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "setup": "tsx steps/1-setup.ts",
+    "dwallet": "tsx steps/2-dwallet.ts",
+    "ethereum": "tsx steps/3-ethereum.ts",
+    "bitcoin": "tsx steps/4-bitcoin.ts",
+    "program": "tsx steps/5-program.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ika.xyz/sdk-core": "0.1.0-pre-alpha.0",
+    "@ika.xyz/sdk-solana": "0.1.0-pre-alpha.0",
+    "@noble/curves": "^2.3.0",
+    "@noble/hashes": "^2.3.0",
+    "@solana/web3.js": "^1.98.0",
+    "bitcoinjs-lib": "^7.0.0",
+    "viem": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
