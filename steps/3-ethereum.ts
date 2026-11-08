@@ -12,7 +12,7 @@
 // On Ethereum the signed hash is the Keccak-256 of the unsigned transaction,
 // so we ask for ECDSA on secp256k1 with Keccak-256 over those bytes.
 
-import { Hash, SignatureAlgorithm } from '@ika.xyz/sdk-solana/web3';
+import { Hash, SignatureAlgorithm } from '@ika.xyz/pre-alpha-solana/web3';
 import type { PublicKey } from '@solana/web3.js';
 import {
 	createPublicClient,

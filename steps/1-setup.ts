@@ -11,8 +11,8 @@
 // Both keys come from one root seed, which this step makes and saves in
 // .workshop/seed.json.
 
-import { encryptionKeyPda, gasDepositPda } from '@ika.xyz/sdk-solana';
-import { Curve } from '@ika.xyz/sdk-solana/web3';
+import { encryptionKeyPda, gasDepositPda } from '@ika.xyz/pre-alpha-solana';
+import { Curve } from '@ika.xyz/pre-alpha-solana/web3';
 import { LAMPORTS_PER_SOL, PublicKey } from '@solana/web3.js';
 
 import {

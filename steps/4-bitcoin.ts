@@ -10,7 +10,7 @@
 // With no coin yet, it signs a spend of a made-up coin instead, so you still
 // see the whole flow; that one cannot be broadcast.
 
-import { Hash, SignatureAlgorithm } from '@ika.xyz/sdk-solana/web3';
+import { Hash, SignatureAlgorithm } from '@ika.xyz/pre-alpha-solana/web3';
 import { sha256 } from '@noble/hashes/sha2.js';
 import { secp256k1 } from '@noble/curves/secp256k1.js';
 import type { PublicKey } from '@solana/web3.js';

@@ -9,10 +9,10 @@
 // This step makes a second dWallet for the program, so the one from step 2
 // stays yours.
 
-import { readSignatureVoucherUnverified } from '@ika.xyz/sdk-solana';
-import { coordinatorAddress } from '@ika.xyz/sdk-solana/instructions';
-import { approvalMessageDigests } from '@ika.xyz/sdk-solana';
-import { Curve, Hash, SignatureAlgorithm } from '@ika.xyz/sdk-solana/web3';
+import { readSignatureVoucherUnverified } from '@ika.xyz/pre-alpha-solana';
+import { coordinatorAddress } from '@ika.xyz/pre-alpha-solana/instructions';
+import { approvalMessageDigests } from '@ika.xyz/pre-alpha-solana';
+import { Curve, Hash, SignatureAlgorithm } from '@ika.xyz/pre-alpha-solana/web3';
 import { Keypair, PublicKey } from '@solana/web3.js';
 import { recoverMessageAddress, toHex, toPrefixedMessage } from 'viem';
 

@@ -4,15 +4,15 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { withMockCryptography } from '@ika.xyz/sdk-core/mock';
-import { DWalletGrpcClient } from '@ika.xyz/sdk-core/web';
+import { withMockCryptography } from '@ika.xyz/pre-alpha-core/mock';
+import { DWalletGrpcClient } from '@ika.xyz/pre-alpha-core/web';
 import {
 	Curve,
 	IkaClient,
 	IkaTransaction,
 	UserShareEncryptionKeys,
-} from '@ika.xyz/sdk-solana/web3';
-import type { DWallet } from '@ika.xyz/sdk-solana/web3';
+} from '@ika.xyz/pre-alpha-solana/web3';
+import type { DWallet } from '@ika.xyz/pre-alpha-solana/web3';
 import {
 	Connection,
 	Keypair,

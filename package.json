@@ -17,8 +17,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@ika.xyz/sdk-core": "0.1.0-pre-alpha.0",
-    "@ika.xyz/sdk-solana": "0.1.0-pre-alpha.0",
+    "@ika.xyz/pre-alpha-core": "0.1.0",
+    "@ika.xyz/pre-alpha-solana": "0.1.0",
     "@noble/curves": "^2.3.0",
     "@noble/hashes": "^2.3.0",
     "@solana/web3.js": "^1.98.0",

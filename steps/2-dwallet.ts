@@ -9,7 +9,7 @@
 // One secp256k1 key is an Ethereum account and a Bitcoin address at the same
 // time, so this step prints both.
 
-import { Curve } from '@ika.xyz/sdk-solana/web3';
+import { Curve } from '@ika.xyz/pre-alpha-solana/web3';
 
 import { bitcoinAddress, ethereumAddress } from '../lib/chains.ts';
 import {

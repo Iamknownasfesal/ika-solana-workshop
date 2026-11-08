@@ -9,7 +9,7 @@ import { join } from 'node:path';
 
 export const IKA = {
 	/** The ika program on Solana devnet. */
-	programId: 'CqGtQgrYFUhobuknomFNntwoxCgKGkBRUtemgdPuM9qT',
+	programId: '8siGnE3tCZbu4LTuX8QoBPErvWeGBF4pRSJDnaGdHyQv',
 	/** The ika network, over gRPC-Web. */
 	grpcUrl: 'https://solana-alpha-dev-1.ika-network.net',
 	/** The network key every answer of the network is checked against. */
